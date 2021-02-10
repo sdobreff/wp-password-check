@@ -1,0 +1,22 @@
+{
+    "name": "sdobreff/wp-password-check",
+    "description": "Checks user password against given pattern",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Stoil Dobreff",
+            "email": "sdobreff@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "sdobreff\\": "classes/",
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^7",
+        "bjeavons/zxcvbn-php": "^1.0"
+    }
+}
